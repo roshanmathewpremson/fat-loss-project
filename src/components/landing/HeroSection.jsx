@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Zap, Target, Leaf } from 'lucide-react';
+import heroComposition from '../../assets/images/hero_composition.png';
 
 const HeroSection = ({ children }) => {
     const scrollToGenerator = () => {
@@ -75,7 +76,7 @@ const HeroSection = ({ children }) => {
                             border: '8px solid white'
                         }}>
                             <img
-                                src="/src/assets/images/hero_composition.png"
+                                src={heroComposition}
                                 alt="Healthy Tracking"
                                 style={{ width: '100%', height: 'auto', display: 'block' }}
                             />
